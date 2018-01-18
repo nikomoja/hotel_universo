@@ -8,12 +8,11 @@
     <header>
     <h1>Hotel Universo</h1>
     <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
-    {% include nav.html %}
+    {% include nav.html navclass='nav-top' %}
     </header>
     {{content}}
-
     <footer>
-      {% include nav.html %}
+      {% include nav.html navclass='nav-bottom' %}
       <p>by Eusabio Gomez</p>
     </footer>
   </body>
