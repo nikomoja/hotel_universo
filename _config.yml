@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /hotel_universo
+exclude: ['README.md']
