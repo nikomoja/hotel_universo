@@ -1,3 +1,5 @@
-markdown: redcarpet
+#markdown: redcarpet
 baseurl: /hotel_universo
 exclude: ['README.md']
+kramdown:
+  input: GFM
