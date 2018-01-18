@@ -7,13 +7,14 @@
   <body>
     <header>
     <h1>Hotel Universo</h1>
-        <nav>
-          <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/about.html">About</a></li>
-          </ul>
-        </nav>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
+    {% include nav.html %}
     </header>
     {{content}}
+
+    <footer>
+      {% include nav.html %}
+      <p>by Eusabio Gomez</p>
+    </footer>
   </body>
 </html>
