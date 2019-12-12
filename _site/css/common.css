@@ -1,0 +1,38 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size:
+  font: normal: 100%;
+  font-family: Arial;
+}
+
+h1 {
+  border: solid black;
+}
+
+ .current {
+  background-color: #000531;
+  color: #fff;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration-line: none;
+}
+
+
+
+.nav-top {
+  font-size: 1.25rem;
+  color: red;
+}
